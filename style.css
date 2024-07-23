@@ -1,0 +1,160 @@
+html{
+
+    background-color:  rgb(12, 5, 17);
+}
+.main{
+    margin-top : 5px;
+    background-color: rgb(12, 5, 17);
+    text-align: center;
+
+}
+#topic{
+    border : 10px solid rgb(48, 23, 68);
+
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    display : inline-block;
+    width : 90%;
+    font-size: 3rem;
+    color :rgb(255, 255, 255);
+    text-align: center;
+    margin : 70px;
+    background-color: rgb(20, 9, 37);
+}
+
+.first-div{
+    border: 5px solid rgb(21, 7, 32);
+    display : inline-block;
+    width : 30%;
+    font-family: "baskervville SC", serif;
+    color : rgb(126, 143, 34);
+    background-color: rgb(12, 7, 24);
+
+}
+
+.second-div{
+    border: 5px solid rgb(21, 7, 32);
+    display : inline-block;
+    width : 30%;
+    color : rgb(126, 143, 34);
+    background-color: rgb(12, 7, 24);
+  
+}
+.third-div{
+    border: 5px solid rgb(21, 7, 32);
+    display : inline-block;
+    width : 30%;
+    color : rgb(126, 143, 34);
+    background-color: rgb(12, 7, 24);
+
+}
+
+#first-img{
+    margin: 10px;  
+   height : 150px;
+   width : 150px;
+   float :left;
+   
+}
+#second-img{
+    margin: 10px;  
+    height : 100px;
+    width : 150px;
+    float :left;
+
+}
+#third-img{
+    margin: 10px;  
+    height : 150px;
+    width : 150px;
+    float :left;
+}
+
+
+@media (max-width : 700px){
+
+
+
+    .main{
+        margin-top : 5px;
+        background-color: rgb(12, 5, 17);
+
+        margin-left : 20px;
+    
+    }
+     
+
+    .first-div
+    {
+        border: 5px solid rgb(21, 7, 32);
+        display : block;
+        width : 100%;
+        font-family: "baskervville SC", serif;
+        color : rgb(126, 143, 34);
+        background-color: rgb(12, 7, 24);
+        margin-bottom : 10px;
+
+    }
+    .second-div
+    {
+        border: 5px solid rgb(21, 7, 32);
+        display : block;
+        width : 100%;
+        color : rgb(126, 143, 34);
+        background-color: rgb(12, 7, 24);
+        margin-bottom : 10px;
+
+    }
+
+    .third-div
+    {
+        border: 5px solid rgb(21, 7, 32);
+        display : block;
+        width : 100%;
+        color : rgb(126, 143, 34);
+        background-color: rgb(12, 7, 24);
+        margin-bottom : 10px;
+
+    
+    }
+     
+#first-img{
+    margin: 20px;  
+   height : 150px;
+   width : 150px;
+   float :left;
+ 
+   
+}
+#second-img{
+    margin: 20px;  
+    height : 100px;
+    width : 150px;
+    float :left;
+
+}
+#third-img{
+    margin: 20px;  
+    height : 100px;
+    width : 150px;
+    float :left;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
